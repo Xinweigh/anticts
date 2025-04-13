@@ -1,0 +1,67 @@
+{
+    "buttons": {
+        "A": 0,
+        "B": 1,
+        "X": 2,
+        "Y": 3,
+        "LB": 4,
+        "RB": 5,
+        "BACK": 6,
+        "MENU": 7,
+        "L3": 8,
+        "R3": 9
+    },
+    "axes": {
+        "LX": 0,
+        "LY": 1,
+        "RX": 2,
+        "RY": 3,
+        "LT": 4,
+        "RT": 5
+    },
+    "dpad": {
+        "UP": [
+            0,
+            1
+        ],
+        "DOWN": [
+            0,
+            -1
+        ],
+        "LEFT": [
+            -1,
+            0
+        ],
+        "RIGHT": [
+            1,
+            0
+        ]
+    },
+    "mapping": {
+        "mouse": {
+            "A": "left",
+            "RB": "right",
+            "L3": "middle"
+        },
+        "keyboard": {
+            "B": [
+                "Alt"
+            ],
+            "X": [
+                "Ctrl"
+            ],
+            "Y": [
+                "Shift"
+            ],
+            "LB": [
+                "c"
+            ],
+            "BACK": [
+                "ESC"
+            ],
+            "MENU": [
+                "LB"
+            ]
+        }
+    }
+}

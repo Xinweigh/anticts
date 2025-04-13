@@ -2,7 +2,7 @@
 
 ## 简介
 
-- CTS，即腕管综合征，俗称“鼠标手”，~~牛马们懂的都懂，~~由于长时间使用鼠标引起
+- CTS，即腕管综合征（Carpal tunnel syndrome），俗称“鼠标手”，由于长时间使用鼠标引起~~牛马们懂的都懂~~
 - 为避免或减轻已有的CTS，最好的方式是不使用普通鼠标，而是使用更贴合人体工学的轻型鼠标（高端游戏鼠）/人体工学鼠标或轨迹球，以及手柄
 - ~~高端游戏鼠标大部分不支持蓝牙，其他几项实在是太tm贵了，如果能接受为了工作单独买个大几百的人体工学鼠标那请随意~~
 - 同时由于作者所在公司监管严格，无法随意使用可执行文件，但允许在开发环境下执行代码，故有此项目诞生
@@ -10,10 +10,13 @@
 
 ## 特性
 
-- 纯代码运行，仅需两个python库（pygame与pynput）
+- 纯代码运行，仅需三个额外python库（pygame与pynput）
+- 如果能确定自己手柄是哪种协议，那么就可以只选择对应的库
+    - Xinput：XInput-Python
+    - Dinput：pygame
 - 可傻瓜式一键执行，也可通过config文件快速配置
 - 支持各位调节代码以适应自己的手柄
-- 目前仅支持Windows，Linux桌面环境可能出现不可预知的结果
+- 目前仅在Windows上做了测试，Linux桌面环境可能出现不可预知的结果
 
 ## 安装与使用
 
@@ -29,7 +32,7 @@
    下载并安装 Python：
    - [Python 官方下载页面](https://www.python.org/downloads/)
    - [Python 阿里云镜像下载页面](https://mirrors.aliyun.com/python-release/)
-   
+
 2. 克隆/依赖/执行：
    ```bash
    git clone https://github.com/Xinweigh/anticts.git
